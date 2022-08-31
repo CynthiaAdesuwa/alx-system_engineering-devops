@@ -1,3 +1,2 @@
 #!/bin/bash
-#!/bin/bash
-ln cp *.html ..
+#!/bin/bash/nln cp *.html ..
