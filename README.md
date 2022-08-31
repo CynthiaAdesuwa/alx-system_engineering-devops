@@ -1,1 +1,1 @@
-0. Where am I?
+Move the file betty from /tmp/ to /tmp/my_first_directory
