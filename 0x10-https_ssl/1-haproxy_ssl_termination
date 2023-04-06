@@ -44,7 +44,7 @@ defaults
                                                                                                                                                                                                                                                                                                              
 frontend load_balancer                                                                                                                                   
         bind *:80                                                                                                                                        
-        bind :443 ssl crt /etc/letsencrypt/live/ubuntu.cynthia001.tech/cynthia001.pem                                                                               
+        bind :443 ssl crt /etc/letsencrypt/live/www.cynthia001.tech/cynthia001.pem                                                                               
         acl letsencrypt-acl path_beg /.well-known/acme-challenge/                                                                                        
         redirect scheme https if !{ ssl_fc }                                                                                                             
         use_backend letsencrypt-backend if letsencrypt-acl                                                                                               
