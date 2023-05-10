@@ -1,11 +1,11 @@
 **0x19-postmortem
 **
 
-### Duration: 2 hours (12:00 PM - 2:00 PM WAT) Impact: Users were unable to access the checkout page on our fintech app, resulting in a loss of potential sales. Approximately 20% of users were affected.
+### Duration: 2 hours (12:00 PM - 2:00 PM WAT) Impact: Users were unable to access the checkout page on our fintech app, resulting in a loss of potential sales. Approximately 10% of users were affected.
 
-Root Cause: A recent update to the website's payment gateway integration introduced a bug that caused the checkout page to crash under certain circumstances.
+**Root Cause:** A recent update to the website's payment gateway integration introduced a bug that caused the checkout page to crash under certain circumstances.
 
-Timeline:
+**Timeline**:
 12:00 PM - The issue was first detected when our monitoring system alerted us to a spike in 500 errors on the checkout page.
 12:05 PM - The engineering team was notified of the issue and began investigating.
 12:10 PM - Initial investigations suggested that the issue was related to the website's database, and the team began examining the database logs and performing database queries to isolate the problem.
