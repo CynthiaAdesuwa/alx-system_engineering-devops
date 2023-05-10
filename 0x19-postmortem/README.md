@@ -13,17 +13,18 @@ Timeline:
 1:00 PM - The incident escalated to senior engineers and the payment gateway provider.
 1:30 PM - The team worked with the payment gateway provider to develop and implement a fix for the issue.
 2:00 PM - The issue was resolved, and users were able to access the checkout page again.
-Root Cause and Resolution:
+
+**Root Cause and Resolution:**
 The root cause of the issue was a bug in the website's payment gateway integration code. Specifically, the bug caused the checkout page to crash when users attempted to use a certain type of credit card.
 
 To resolve the issue, the engineering team worked with the payment gateway provider to identify and fix the bug in the integration code. The fix involved updating the code to properly handle the problematic credit card type and ensuring that future updates would not introduce similar bugs.
 
-Corrective and Preventative Measures:
+**Corrective and Preventative Measures:**
 To prevent similar incidents from occurring in the future, the engineering team has implemented several corrective and preventative measures, including:
 
 Conducting a thorough review of all payment gateway integrations to ensure they are functioning properly and are not susceptible to similar bugs. Implementing more rigorous testing procedures for updates to the website and its integrations. Improving monitoring and alerting systems to detect and respond to similar issues more quickly in the future. Developing and documenting incident response procedures to ensure that issues are escalated and resolved as quickly and efficiently as possible.
 
-Tasks to address the issue:
+**Tasks to address the issue:**
 Review and update payment gateway integration code to ensure it is functioning properly. Develop and implement additional testing procedures for website updates and integrations. Update monitoring and alerting systems to detect and respond to similar issues more quickly. Develop and document incident response procedures to ensure issues are resolved as efficiently as possible.
 
 
