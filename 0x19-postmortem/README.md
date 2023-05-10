@@ -1,4 +1,4 @@
-0x19-postmortem
+**0x19-postmortem
 
 ### Duration: 2 hours (12:00 PM - 2:00 PM WAT) Impact: Users were unable to access the checkout page on our fintech app, resulting in a loss of potential sales. Approximately 20% of users were affected.
 
