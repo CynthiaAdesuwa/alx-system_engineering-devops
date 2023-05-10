@@ -8,12 +8,19 @@
 **Timeline**:
 
 12:00 PM - The issue was first detected when our monitoring system alerted us to a spike in 500 errors on the checkout page.
+
 12:05 PM - The engineering team was notified of the issue and began investigating.
+
 12:10 PM - Initial investigations suggested that the issue was related to the website's database, and the team began examining the database logs and performing database queries to isolate the problem.
+
 12:20 PM - Further investigations revealed that the issue was actually related to the payment gateway integration, and the team began examining the payment gateway logs and code.
+
 12:40 PM - The team discovered a bug in the payment gateway code that was causing the checkout page to crash under certain conditions.
+
 1:00 PM - The incident escalated to senior engineers and the payment gateway provider.
+
 1:30 PM - The team worked with the payment gateway provider to develop and implement a fix for the issue.
+
 2:00 PM - The issue was resolved, and users were able to access the checkout page again.
 
 **Root Cause and Resolution:**
